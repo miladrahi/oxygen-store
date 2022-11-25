@@ -1,0 +1,1072 @@
+@charset "utf-8";
+
+/* ===================================================================
+
+                                 font
+
+=======================================================================*/
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../font/IRANSans-Bold-web.eot');
+
+    src: url('../font/IRANSans-Bold-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../font/IRANSans-Bold-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../font/IRANSans-Bold-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../font/IRANSans-Bold-web.ttf') format('ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../font/IRANSans-Medium-web.eot');
+
+    src: url('../font/IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../font/IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../font/IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../font/IRANSans-Medium-web.ttf') format('ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../font/IRANSans-UltraLight-web.eot');
+
+    src: url('../font/IRANSans-UltraLight-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../font/IRANSans-UltraLight-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../font/IRANSans-UltraLight-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../font/IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../font/IRANSans-Light-web.eot');
+
+    src: url('../font/IRANSans-Light-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../font/IRANSans-Light-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../font/IRANSans-Light-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../font/IRANSans-Light-web.ttf') format('ttf');
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../font/IRANSans-web.eot');
+
+    src: url('../font/IRANSans-web.eot?#iefix') format('eot'),  /* IE6–8 */
+    url('../font/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../font/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../font/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Quicksand_Light';
+    src: url('../font/Quicksand_Light.otf');
+}
+@font-face {
+    font-family: 'BYEKAN';
+    src: url('../font/BYEKAN.TTF');
+}
+
+
+.IRANSansBold {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: bold;
+}
+
+.IRANSansMedium {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 500;
+}
+
+
+.IRANSansUltraLight {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 200;
+}
+
+.IRANSansLight {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: 300;
+}
+
+.IRANSans {
+    font-family: IRANSans-web;
+    color: #000;
+    margin-right: 50px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #FFF;
+    font-weight: normal;
+}
+
+/*==============================================================
+
+
+                             Header
+
+================================================================
+ */
+a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+    padding-top: 30px;
+    background: #3d4144;
+    /*border-bottom: 5px solid #ddd;*/
+    box-shadow: inset 0px 100px 200px #111111, inset 0px 0px 20px #111111;
+}
+
+nav {
+    background: #3d4144;
+    height: 38px;
+    background: #464b4c;
+    border-top: 1px solid #353939;
+    border-bottom: 1px solid #2e3131;
+    background-image: -webkit-linear-gradient(top, #464b4c, #3f4344);
+    background-image: -moz-linear-gradient(top, #464b4c, #3f4344);
+    background-image: -o-linear-gradient(top, #464b4c, #3f4344);
+    background-image: linear-gradient(to bottom, #464b4c, #3f4344);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.06);
+}
+
+nav a {
+    -webkit-transition: 0.1s ease-out;
+    -moz-transition: 0.1s ease-out;
+    -o-transition: 0.1s ease-out;
+    transition: 0.1s ease-out;
+    -webkit-transition-property: background-color, line-height;
+    -moz-transition-property: background-color, line-height;
+    -o-transition-property: background-color, line-height;
+    transition-property: background-color, line-height;
+}
+
+nav ul {
+    float: left;
+    border-left: 1px solid #353939;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #4d5354;
+    border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+nav li {
+    float: left;
+
+}
+
+nav a {
+    display: block;
+    padding: 0 40px;
+    line-height: 39px;
+    color: #ddd;
+    text-decoration: none;
+    border-left: 1px solid #4d5354;
+    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    border-right: 1px solid #353939;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+nav a:hover {
+
+    background: #00dee6;
+    color: #fff;
+}
+
+nav li.active a, nav li.active a:hover, nav a:active {
+
+    padding: 0 40px;
+    line-height: 36px;
+    color: #00f7f9;
+    background: #00dee6;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #00dee6;
+    background-image: -webkit-linear-gradient(top, #484e4f, #323637);
+    background-image: -moz-linear-gradient(top, #484e4f, #323637);
+    background-image: -o-linear-gradient(top, #484e4f, #323637);
+    background-image: linear-gradient(to bottom, #484e4f, #323637);
+    -webkit-box-shadow: inset 0 -1px #151717, inset 0 -1px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -4px #00dee6, inset 0 -1px 10px #232323;
+}
+
+
+/* -------------------------------------------------  */
+form {
+    border-collapse: collapse;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+table {
+    margin: auto;
+    font-family: "IRANSans-web";
+
+}
+
+.field, .field5 {
+    width: 450px;
+    height: 300px;
+    background: #959595;
+    color: white;
+    margin: auto;
+    border: 1px solid #7B7B7B;
+    border-radius: 8px;
+    box-shadow: 0 0 30px #505050;
+}
+
+.field2 {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 20px 20px;
+    width: 650px;
+    height: 700px;
+    border-radius: 35px;
+    box-shadow: inset 0px 800px 300px -400px #c1c1c1;
+}
+
+.field3 {
+    margin: auto;
+    background-color: #c9c9c9;
+    width: 250px;
+    height: 285px;
+    border-radius: 6px
+}
+
+.field4  {
+    margin: auto;
+    width: 600px;
+    height: 640px;
+    margin-top: 50px;
+    padding: 0 20px 20px;
+    border-radius: 35px;
+    padding-top: 20px;
+    box-shadow: inset 0px 800px 300px -400px #c1c1c1;
+}
+.field5
+{
+    border: 5px solid #575757;
+    margin: 5% auto;
+    background-color: #575757;
+    width: 700px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 0 80px black;
+}
+.field6
+{
+
+    margin: auto;
+    margin-right: 300px;
+    height: 1200px;
+    width: 1000px;
+    margin-top: 50px;
+    padding: 0 20px 20px;
+    border-radius: 60px;
+    padding-top: 20px;
+    box-shadow: inset 0px 1200px 200px -400px #f8f8f8;
+}
+field7{
+    color: #000000;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#submit {
+    font-family: "IRANSans-web";
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.img-radius {
+    border-radius: 4%;
+    width: 210px;
+    height: 140px;
+}
+
+.product-qty,.product-qty2 {
+    width: 36px;
+    height: 32px;
+    font-size: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+.product-qty2 {
+    width: 48px;
+    height: 42px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 2px solid #9d9d9d;
+}
+
+
+.php {
+    font-family: "IRANSans-web";
+    font-size: 16px;
+    direction: rtl;
+    margin: auto;
+    align-items: center;
+}
+
+#star1 {
+    color: #FF0004;
+    display: none;
+}
+
+td {
+    padding: 5px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+input.text, input, input.submit {
+    font-family: IRANSans-web;
+}
+
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+caption {
+    background-color: #F8017C;
+
+}
+
+#center {
+    width: 90%;
+    margin: 10px auto;
+}
+
+td {
+    vertical-align: middle;
+    font-family: IRANSans-web;
+    font-size: small;
+}
+
+#login {
+    font-family: arial;
+}
+
+form {
+    font-family: IRANSans-web;
+}
+
+.msgok{
+    color: #00aa60;
+    font-weight: bold;
+    font-size: 14px;
+}
+.msgerror{
+    color: #aa0058;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.btn {
+    background-color: transparent;
+    border-color: azure;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: darkgray;
+    color: white;
+    font-family: "IRANSans-web";
+}
+
+.btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8,.btn9,.btn10 ,.btn11,.btn12,.btn13,.btn14,.btn15,.btn16,.btn17,.btn19,.btn20{
+    border: none;
+    height: 40px;
+    width: 204px;
+    font-family: IRANSans-web;
+    font-size: small;
+    background: #414141;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn3, .btn4, .btn5 {
+    background-color: #848484;
+    width: 130px;
+}
+
+.btn4 {
+    width: 100px;
+    height: 35px;
+}
+
+.btn8 {
+    width: 100px;
+    height: 34px;
+}
+
+.btn8 ,.btn9,.btn7,.btn19,.btn20 {
+    background-color: #898a8a;
+}
+.btn7 {
+    border-radius: 10px;
+    border: 2px solid #d2d2d2;
+    height: 30px;
+    font-size: 16px;
+    width:100%;
+}
+.btn6
+{
+    background-color: #a5a5a5;
+}
+.btn9,.btn15
+{
+    background-color: #00889f;
+    height: 30px;
+    font-size: 11px;
+    width:100%;
+}
+
+
+.btn10{
+    width: 70px;
+    height: 35px;
+    font-size: 12px;
+    background-color: #8b8b8b;
+
+}
+.btn11
+{
+    width: 150px;
+    border-radius: 8px;
+    background-color: #737373;
+    color: whitesmoke;
+}
+.btn12{
+
+     background-color: #6b6c6c;
+     height: 26px;
+     width: 55px
+ }
+
+.btn13 {
+    height: 30px;
+    font-size: 11px;
+    width:100%;
+}
+.btn14 {
+    background-color: #999100;
+    color: white;
+    font-size: 11px;
+    width: 90%;
+    height: 30px;
+
+
+}
+.btn15{
+    background-color: green;
+}
+.btn16{
+    background-color: #a5a5a5;
+}
+.btn17,.btn19
+{
+    background-color: gray;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.btn19{
+    background-color: lightgray;
+}
+.btn20 {
+    border-radius: 10px;
+    border: 2px solid #d2d2d2;
+    height: 30px;
+    font-size: 16px;
+    width:100%;
+}
+
+.srchbtn
+{
+    background-color: #6b6c6c;
+    height: 26px;
+    width: 55px;
+    border: none;
+    font-family: IRANSans-web;
+    font-size: small;
+    color: white;
+    border-radius: 5px;
+}
+.srchbtn:hover
+{
+    transition-duration: 0.5s;
+    background-color: cyan;
+    color: black;
+}
+.srchbox
+{
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+
+    margin-left: 1%;
+    width: 160px;
+
+    background-color: dimgray;
+}
+.srchbox:hover{
+    transition-duration: 0.5s;
+    background-color: lightgray;
+
+}
+.srchbox:focus {
+    transition-duration: 0.5s;
+    background-color: whitesmoke;
+
+}
+
+.btn12:hover
+{
+
+    background-color: cyan;
+    color: black;
+}
+
+.btn:hover, .btn2:hover, .btn8:hover,.btn10:hover,.btn11:hover {
+
+    background-color: gold;
+    color: black;
+}
+.btn17:hover{
+    transition-duration: 0.5s;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: gold;
+    border: 1px solid #fbff00;
+    color: black;
+    border-radius: 20px;
+}
+
+.btn3:hover, .btn4:hover,.btn16:hover  {
+    background: #ee0049;
+    color: white;
+}
+.btn7:hover{
+      transition-duration: 0.5s;
+      border: 2px solid rgb(242, 178, 189);
+      background: #ee0049;
+      color: white;
+  }
+.btn20:hover {
+    transition-duration: 0.5s;
+    border: 2px solid #a0e600;
+    background: #3fcb00;
+    color: white;
+}
+
+.btn5:hover, .btn6:hover, .btn9:hover  {
+
+    border: 2px solid white;
+    background:  #00c7de;
+    color: white;
+}
+
+.btn14:hover  {
+    transition-duration: 0.3s;
+    border: 2px solid #fff300;
+    background: #fff700;
+    color: black;
+    font-weight: bold;
+}
+.btn15:hover{
+    transition-duration: 0.3s;
+    border: 2px solid limegreen;
+    background: lawngreen;
+    color: black;
+    font-weight: bold;
+}
+
+.pagesbtn {
+    background: white;
+    padding: 2px 10px 2px 10px;
+    border: none;
+    border-radius: 50%;
+
+}
+.pagesbtn:hover{
+
+    background: gold;
+    font-weight: bold;
+}
+.note .active {
+    padding: 2px 10px 2px 10px;
+    border: none;
+    border-radius: 50%;
+    background: #23b4be;
+    color: white;
+}
+
+.tbl {
+    display: table;
+    margin: auto;
+    margin-right: 5px;
+
+}
+
+#tbl1 {
+    width: 50%;
+    margin: 1px auto;
+    background-color: #BBBBBB;
+    font-size: 16px;
+    align-content: center;
+    font-family: "B Yekan";
+}
+
+.tbl3 {
+    display: table;
+    margin: 0 auto;
+}
+.tbl4 {
+    display: table;
+    margin: auto;
+    margin-top: 15px
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+    margin-top: 15px
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.cell2 {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.row {
+    display: table-row;
+}
+
+.row2 {
+    display: table-row;
+}
+
+.txt, .txt2, .txt3 {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    font-family: IRANSans-web;
+    font-size: small;
+}
+
+.txt2 {
+
+    width: 200px;
+    font-size: medium;
+}
+
+.txt3 {
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+.txt4 {
+    text-align: center;
+    height: 30px;
+    width: 350px;
+    font-family: IRANSans-web;
+    border-radius: 4px;
+    font-size: small;
+}
+
+.txt3:focus {
+    background-color: #f6fefe;
+}
+.caption
+{
+    font-size:16px;
+    background-color: #27afb8;
+    color: white;
+    height: 30px
+}
+
+
+.file {
+    position: relative;
+    border-style: outset;
+    background-color: #ffffff;
+    color: black;
+    font-family: IRANSans-web;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+#comment {
+    text-align: right;
+    height: 100px;
+    width: 250px;
+    font-family: IRANSans-web;
+    font-size: small;
+}
+
+.form {
+    display: table;
+    margin-right: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: darkgray;
+    color: white;
+    font-family: IRANSans-web;
+    direction: rtl;
+}
+.form2
+{
+
+    width: 1150px;
+    margin: 10px 280px auto auto
+}
+.form3
+{
+    width: 1080px;
+    margin: 10px 290px auto auto;
+}
+
+body {
+    overflow: scroll;
+    direction: rtl;
+    background: #CFCFCF;
+    font-family: IRANSans-web;
+    font-size: small;
+    line-height: 1;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.position-item {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/* ===============================================================
+
+                keep footers at the bottom of the page
+
+==================================================================
+*/
+
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#container {
+    height:auto;
+    min-height:100%;
+    position:relative;
+
+}
+#header {
+
+
+}
+#body {
+
+    padding-top:20px;
+    padding-bottom:300px;
+    min-height:800px;
+
+
+}
+#footer {
+
+    position:absolute;
+    min-width:100%;
+    left: 0;
+    bottom: 0;
+    height:250px;
+    background: rgb(132, 133, 135);
+}
+#strip
+{
+    color: #ffffff;
+    height: 40px;
+    background-color: #9e9e9e;
+}
+
+
+/* ===========================================================================
+
+                               Navigation
+
+==============================================================================*/
+
+.div_nav {
+    float: right;
+    position: absolute;
+}
+
+.ul_nav, .ul_navuser {
+    height: 620px;
+    margin-top: 10px;
+    width: 230px;
+    list-style-type: none;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: auto;
+    border-radius: 30px 0 0 30px;
+}
+.ul_navuser
+{
+    height: 450px;
+    margin-top: 2%;
+}
+
+
+.ul_nav li a , .ul_navuser li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.ul_nav li a.active , .ul_navuser li a.active {
+    transition: color 0.5s;
+    background-color: #23b4be;
+    color: white;
+}
+
+.ul_nav li a:hover:not(.active)  , .ul_navuser li a:hover:not(.active) {
+    transition: font-size 0.5s;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.ul_nav #exit:hover ,.ul_navuser #exit:hover
+{
+
+    color: red;
+}
+
+
+
+/*=================================================================================
+
+                             responsive body
+
+===================================================================================
+*/
+@media only screen and (max-width: 1500px)
+{
+    body
+    {
+        zoom: 98%;
+    }
+}
+
+
+@media only screen and (max-width: 1370px)
+{
+    body
+    {
+        zoom: 90%;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 1235px)
+{
+    body
+    {
+        zoom: 80%;
+    }
+}
+
+@media only screen and (max-width: 1100px)
+{
+    body
+    {
+        zoom: 70%;
+    }
+}
+
+@media only screen and (max-width: 970px)
+{
+    body
+    {
+        zoom: 60%;
+    }
+}
+@media only screen and (max-width: 830px)
+{
+    body
+    {
+        zoom: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    body
+    {
+        zoom: 45%;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    .ul_nav
+    {
+        height: 680px;
+        width: 250px;
+    }
+
+    .ul_navuser
+    {
+        height: 600px;
+        width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 560px)
+{
+    body
+    {
+        zoom: 38%;
+    }
+}
+
+@media only screen and (max-width: 590px)
+{
+    .srchbtn,.srchbox
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .form2
+    {
+        margin-right: 230px;
+    }
+
+    .form3
+    {
+        margin-right: 270px;
+    }
+
+}
+
